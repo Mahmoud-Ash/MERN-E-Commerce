@@ -12,9 +12,7 @@ mongoose
 // parse json objects
 app.use(
   express.json({
-    origin: [process.env.CLIENT_URL],
-    origin: ["POST", "GET"],
-    credentials: true,
+    origin: process.env.CLIENT_URL,
   })
 );
 
