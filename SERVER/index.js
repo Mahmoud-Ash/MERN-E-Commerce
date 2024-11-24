@@ -10,7 +10,13 @@ mongoose
   .catch(err => console.log(err));
 
 // parse json objects
-app.use(express.json());
+app.use(
+  express.json({
+    origin: [process.env.CLIENT_URL],
+    origin: ["POST", "GET"],
+    credentials: true,
+  })
+);
 
 //enable cross-origin-resource-sharing
 const cors = require("cors");
