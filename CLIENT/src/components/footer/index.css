@@ -1,0 +1,80 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer section.left {
+    flex: 1;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+section.left .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+section.left p {
+    margin: 20px 0;      
+    width: 100%; 
+    font-size: 20px;
+}
+section.left .iconsContainer {
+    display: flex;
+}
+section.left i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+footer section.center {
+    flex: 1;
+    padding: 20px;
+}
+section.center h3 {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+section.center ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.center ul li {
+    margin-bottom: 10px;
+    width: 50%;
+}
+footer section.right {
+    flex: 1;
+    padding: 20px;
+}
+section.right h1 {
+    margin-bottom: 30px;
+}
+section.right .contactItem {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+section.right img {
+    width: 50%;
+}
+@media (max-width: 380px) {
+    footer {
+        flex-direction: column;
+    }
+    footer section.center {
+        display: none;
+    }
+    footer section.right {
+        background-color: #eee;
+    }
+}

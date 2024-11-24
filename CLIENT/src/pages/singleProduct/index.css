@@ -1,0 +1,120 @@
+.single-product {
+  height: 80vh;
+  display: flex;
+  padding: 50px;
+}
+.single-product .image-container {
+  flex: 1;
+}
+.single-product .image-container img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.single-product .info-container {
+  padding: 0px 50px;
+  flex: 1;
+}
+.single-product .info-container .title {
+  font-weight: 200;
+}
+.single-product .info-container .desc {
+  margin: 20px 0px;
+}
+.price {
+  font-weight: 100;
+  font-size: 35px;
+}
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  width: 50%;
+}
+.filter-container .filter {
+  display: flex;
+  align-items: center;
+}
+.filter-container .filter span {
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.filter-container .filter select {
+  border: 1px solid gray;
+  padding: 5px;
+}
+.filter-container .filter .color {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.add-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.amount-container {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+.amount-container i {
+  cursor: pointer;
+}
+#quantity {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid teal;
+  display: grid;
+  place-content: center;
+  margin: 0px 10px;
+}
+.add-container button {
+  padding: 15px;
+  border: 2px solid teal;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+.add-container button:hover {
+  color: teal;
+  box-shadow: 0px 0px 5px 0 teal inset, 0px 0px 5px 0 teal;
+}
+.alert {
+  color: red;
+  margin: 20px;
+}
+@media (max-width: 380px) {
+  .single-product {
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+  }
+  .single-product .image-container img {
+    height: 40vh;
+  }
+  .single-product .info-container {
+    padding: 10px;
+  }
+  .filter-container {
+    width: 100%;
+  }
+  .add-container {
+    width: 100%;
+  }
+  #quantity {
+    margin: 0px 30px;
+  }
+  .price {
+    margin-bottom: 20px;
+  }
+}

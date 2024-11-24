@@ -1,0 +1,348 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Classic White T-Shirt",
+      "category": "shirts",
+      "price": 19.99,
+      "description": "A classic white t-shirt made from 100% cotton.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "image": "https://img.freepik.com/free-photo/still-life-rendering-jackets-display_23-2149745033.jpg?t=st=1726605609~exp=1726609209~hmac=5e0b949481f9480f52c0e266a513ed1e78df17c696a60714288fcf8eda6d42ce&w=740"
+    },
+    {
+      "id": "2",
+      "name": "Blue Denim Jeans",
+      "category": "loungewear",
+      "price": 49.99,
+      "description": "Comfortable blue denim jeans with a slim fit.",
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "image": "https://img.freepik.com/free-photo/blue-t-shirt_125540-727.jpg?t=st=1726605153~exp=1726608753~hmac=082681df09387cbf7ccab9825ca460454e08d3a8bd4b78432c63e0e76267d22c&w=740"
+    },
+    {
+      "id": "3",
+      "name": "Red Summer Dress",
+      "category": "loungewear",
+      "price": 39.99,
+      "description": "A lightweight red dress perfect for summer.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "image": "https://img.freepik.com/free-photo/pink-sweater-front_125540-746.jpg?t=st=1726605191~exp=1726608791~hmac=e9db31d475b5f26e1717a827268385ef77174e7688218c84d379d216f1b1ffdf&w=740"
+    },
+    {
+      "id": "4",
+      "name": "Black Leather Jacket",
+      "category": "loungewear",
+      "price": 99.99,
+      "description": "A stylish black leather jacket with a modern fit.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "image": "https://img.freepik.com/free-photo/fashion-pink-glamour-women-heels_1203-6509.jpg?t=st=1726605418~exp=1726609018~hmac=092f9a836ff03c6ed80ddfa1692f5127dc07663d78c1c757c1b7b0379e93f9f8&w=740"
+    },
+    {
+      "id": "5",
+      "name": "Green Hoodie",
+      "category": "shirts",
+      "price": 29.99,
+      "description": "A cozy green hoodie made from soft fleece.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "image": "https://img.freepik.com/free-photo/white-high-top-sneakers-unisex-footwear-fashion_53876-101516.jpg?t=st=1726605347~exp=1726608947~hmac=13b8ef48680356a4915dbed26221e164feb846711555008b5f0994d75e2091d8&w=740"
+    },
+    {
+      "id": "6",
+      "name": "Striped Polo Shirt",
+      "category": "shirts",
+      "price": 24.99,
+      "description": "A comfortable striped polo shirt perfect for casual outings.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White",
+        "Navy",
+        "Red"
+      ],
+      "image": "https://img.freepik.com/free-photo/fashion-woman-with-clothes_1203-8302.jpg?t=st=1726605464~exp=1726609064~hmac=e1330863a254226bd22f312926f18937fe24348e15fe467d5f67c3e71b3fc204&w=740"
+    },
+    {
+      "id": "7",
+      "name": "Khaki Chinos",
+      "category": "loungewear",
+      "price": 34.99,
+      "description": "Versatile khaki chinos that can be dressed up or down.",
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Khaki"
+      ],
+      "image": "https://img.freepik.com/free-photo/fashion-woman-with-clothes_1203-8302.jpg?t=st=1726605464~exp=1726609064~hmac=e1330863a254226bd22f312926f18937fe24348e15fe467d5f67c3e71b3fc204&w=740"
+    },
+    {
+      "id": "8",
+      "name": "Floral Print Skirt",
+      "category": "jackets",
+      "price": 29.99,
+      "description": "A beautiful floral print skirt that adds a touch of elegance.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multicolor"
+      ],
+      "image": "https://img.freepik.com/free-photo/pants_1203-8309.jpg?t=st=1726605516~exp=1726609116~hmac=df62e04f9e661a625f5aa4a5aff2395158d5a85724d43fde4c150eef94cd622a&w=740"
+    },
+    {
+      "id": "9",
+      "name": "Woolen Scarf",
+      "category": "jackets",
+      "price": 14.99,
+      "description": "A warm woolen scarf to keep you cozy during winter.",
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Gray",
+        "Black"
+      ],
+      "image": "https://img.freepik.com/free-photo/graphic-woman-dress-trendy-design-white-background_460848-13623.jpg?t=st=1726605544~exp=1726609144~hmac=490b4fb6b0749c2a4a0c398e4d6cd9d4319b9501646b7ea9ed696201030a019d&w=740"
+    },
+    {
+      "id": "10",
+      "name": "Sports Sneakers",
+      "category": "jackets",
+      "price": 59.99,
+      "description": "Comfortable sports sneakers for all your athletic needs.",
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "image": "https://img.freepik.com/free-photo/empty-purple-baseball-green-white_1203-5374.jpg?t=st=1726927537~exp=1726931137~hmac=729e55bf3b144f1859baf2d1b1208fad6ba8156591305a884bb4d8106a267d02&w=1800"
+    },
+    {
+      "id": "11",
+      "name": "Classic White T-Shirt",
+      "category": "shirts",
+      "price": 19.99,
+      "description": "A classic white t-shirt made from 100% cotton.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White"
+      ],
+      "image": "https://img.freepik.com/free-photo/still-life-rendering-jackets-display_23-2149745033.jpg?t=st=1726605609~exp=1726609209~hmac=5e0b949481f9480f52c0e266a513ed1e78df17c696a60714288fcf8eda6d42ce&w=740"
+    },
+    {
+      "id": "12",
+      "name": "Blue Denim Jeans",
+      "category": "loungewear",
+      "price": 49.99,
+      "description": "Comfortable blue denim jeans with a slim fit.",
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Blue"
+      ],
+      "image": "https://img.freepik.com/free-photo/blue-t-shirt_125540-727.jpg?t=st=1726605153~exp=1726608753~hmac=082681df09387cbf7ccab9825ca460454e08d3a8bd4b78432c63e0e76267d22c&w=740"
+    },
+    {
+      "id": "13",
+      "name": "Red Summer Dress",
+      "category": "loungewear",
+      "price": 39.99,
+      "description": "A lightweight red dress perfect for summer.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Red"
+      ],
+      "image": "https://img.freepik.com/free-photo/pink-sweater-front_125540-746.jpg?t=st=1726605191~exp=1726608791~hmac=e9db31d475b5f26e1717a827268385ef77174e7688218c84d379d216f1b1ffdf&w=740"
+    },
+    {
+      "id": "14",
+      "name": "Black Leather Jacket",
+      "category": "loungewear",
+      "price": 99.99,
+      "description": "A stylish black leather jacket with a modern fit.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "image": "https://img.freepik.com/free-photo/fashion-pink-glamour-women-heels_1203-6509.jpg?t=st=1726605418~exp=1726609018~hmac=092f9a836ff03c6ed80ddfa1692f5127dc07663d78c1c757c1b7b0379e93f9f8&w=740"
+    },
+    {
+      "id": "15",
+      "name": "Green Hoodie",
+      "category": "shirts",
+      "price": 29.99,
+      "description": "A cozy green hoodie made from soft fleece.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Green"
+      ],
+      "image": "https://img.freepik.com/free-photo/white-high-top-sneakers-unisex-footwear-fashion_53876-101516.jpg?t=st=1726605347~exp=1726608947~hmac=13b8ef48680356a4915dbed26221e164feb846711555008b5f0994d75e2091d8&w=740"
+    },
+    {
+      "id": "16",
+      "name": "Striped Polo Shirt",
+      "category": "shirts",
+      "price": 24.99,
+      "description": "A comfortable striped polo shirt perfect for casual outings.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White",
+        "Navy",
+        "Red"
+      ],
+      "image": "https://img.freepik.com/free-photo/fashion-woman-with-clothes_1203-8302.jpg?t=st=1726605464~exp=1726609064~hmac=e1330863a254226bd22f312926f18937fe24348e15fe467d5f67c3e71b3fc204&w=740"
+    },
+    {
+      "id": "17",
+      "name": "Khaki Chinos",
+      "category": "loungewear",
+      "price": 34.99,
+      "description": "Versatile khaki chinos that can be dressed up or down.",
+      "sizes": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        "Khaki"
+      ],
+      "image": "https://img.freepik.com/free-photo/fashion-woman-with-clothes_1203-8302.jpg?t=st=1726605464~exp=1726609064~hmac=e1330863a254226bd22f312926f18937fe24348e15fe467d5f67c3e71b3fc204&w=740"
+    },
+    {
+      "id": "18",
+      "name": "Floral Print Skirt",
+      "category": "jackets",
+      "price": 29.99,
+      "description": "A beautiful floral print skirt that adds a touch of elegance.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        "Multicolor"
+      ],
+      "image": "https://img.freepik.com/free-photo/pants_1203-8309.jpg?t=st=1726605516~exp=1726609116~hmac=df62e04f9e661a625f5aa4a5aff2395158d5a85724d43fde4c150eef94cd622a&w=740"
+    },
+    {
+      "id": "19",
+      "name": "Woolen Scarf",
+      "category": "jackets",
+      "price": 14.99,
+      "description": "A warm woolen scarf to keep you cozy during winter.",
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Gray",
+        "Black"
+      ],
+      "image": "https://img.freepik.com/free-photo/graphic-woman-dress-trendy-design-white-background_460848-13623.jpg?t=st=1726605544~exp=1726609144~hmac=490b4fb6b0749c2a4a0c398e4d6cd9d4319b9501646b7ea9ed696201030a019d&w=740"
+    },
+    {
+      "id": "20",
+      "name": "Sports Sneakers",
+      "category": "jackets",
+      "price": 59.99,
+      "description": "Comfortable sports sneakers for all your athletic needs.",
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "image": "https://img.freepik.com/free-photo/empty-purple-baseball-green-white_1203-5374.jpg?t=st=1726927537~exp=1726931137~hmac=729e55bf3b144f1859baf2d1b1208fad6ba8156591305a884bb4d8106a267d02&w=1800"
+    }
+  ]
+}
