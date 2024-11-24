@@ -22,6 +22,11 @@ app.use(
 const cors = require("cors");
 app.use(cors());
 
+//check if server is working properly
+app.get("/", (_req, res) => {
+  res.send("API is working!");
+});
+
 //auth Route
 const authRoute = require("./routes/auth.js");
 app.use("/api/auth", authRoute);
