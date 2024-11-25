@@ -154,4 +154,7 @@ button.checkout-button {
     .top {
         align-items: stretch;
     }
+    .top .text {
+        display: none;
+    }
 }

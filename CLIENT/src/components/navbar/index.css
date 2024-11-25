@@ -5,8 +5,10 @@
     position: sticky;
     top: 0;
     z-index: 200;
+    display: flex;
 }
 .nav-bar .wrapper {
+    flex-grow: 1;
     list-style-type: none;
     padding: 10px 40px;
     display: flex;
@@ -111,13 +113,13 @@
     .right-nav {
         gap: 10px;
     }
+    .nav-bar .wrapper {
+        padding: 5px;
+    }
 }
 @media (max-width: 380px) {
     .nav-bar {
         height: 55px;
-    }
-    .nav-bar .wrapper {
-        padding: 10px 5px;
     }
     .language {
         display: none;
